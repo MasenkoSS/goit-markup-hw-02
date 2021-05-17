@@ -1,3 +1,25 @@
+/* color */
+
+:root {
+  --text-primary: #212121;
+  --accent-color: #2196f3;
+}
+
+/*logo*/
+
+.logo {
+  color: logo(--text-primary);
+}
+.part-logo {
+  color: p-logo(--accent-color);
+}
+.logo:focus,
+.logo:hover {
+  color: logo(--accent-color);
+}
+
+/* body */
+
 body {
   font-family: Roboto, sans-serif;
 }
