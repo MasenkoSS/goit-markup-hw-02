@@ -1,32 +1,67 @@
-/* color */
-
 :root {
-  --text-primary: #212121;
-  --accent-color: #2196f3;
+  --first-text-primary: #212121;
+  --background-color: #e5e5e5;
+  --highlight-color: #2196f3;
+  --background: #2f303a;
 }
 
-/*logo*/
-
-.logo {
-  color: logo(--text-primary);
-}
-.part-logo {
-  color: p-logo(--accent-color);
-}
-.logo:focus,
-.logo:hover {
-  color: logo(--accent-color);
-}
-
-/* body */
-
-body {
-  font-family: Roboto, sans-serif;
+/* header */
+.text-nav {
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .nav-link {
   color: #212121;
 }
+.nav-link:focus,
 .nav-link:hover {
   color: #2196f3;
+}
+.pointer {
+  cursor: pointer;
+}
+
+/*logo*/
+.webcolor {
+  text-decoration: none;
+  color: var(--highlight-color);
+}
+.studiocolor {
+  text-decoration: none;
+  color: var(--first-text-primary);
+}
+
+/* body */
+
+.body-styles {
+  font-family: Roboto, sans-serif;
+  color: var(--first-text-primary);
+}
+
+ul {
+  list-style: none;
+}
+
+/* start main styles */
+/* section one */
+
+.backg {
+  background-color: #2f303a;
+}
+
+.button,
+.pointer,
+.font-size-button {
+  font-size: 16px;
+}
+.font-size-title {
+  font-size: 44px;
+  color: var(--background-color);
+  line-height: 60px;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 16px;
 }
