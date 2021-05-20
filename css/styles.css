@@ -19,18 +19,27 @@ ul {
 }
 
 /* logo */
+.studiocolor-top {
+  font-family: Raleway;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.173;
+  color: var(--first-text-primary);
+  letter-spacing: 0.03em;
+}
 .webcolor {
+  font-family: Raleway;
   text-decoration: none;
   color: var(--highlight-color);
 }
-.studiocolor-top {
-  text-decoration: none;
-  color: var(--first-text-primary);
-}
 
 .studiocolor-bottom {
+  font-family: Raleway;
   text-decoration: none;
+  font-size: 26px;
+  line-height: 1.173;
   color: var(--main-background-color);
+  letter-spacing: 0.03em;
 }
 
 /* body */
@@ -43,38 +52,82 @@ ul {
 .font-size-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.363;
   color: var(--main-background-color);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* button index */
+
 .font-size-button-index {
+  font-size: 16px;
   color: var(--main-background-color);
-  line-height: 30px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* button portfolio */
 .font-size-button-portfolio {
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-/* navigation */
-.text-nav {
+.font-size-button-portfolio:focus,
+.font-size-button-portfolio:hover {
+  color: #2196f3;
+}
+
+/* navigation - запасной */
+/*.text-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+}*/
+
+.nav-link-mail {
+  text-decoration: none;
+  color: var(--complementary-color-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+}
+
+.nav-link-mail:focus,
+.nav-link-mail:hover {
+  color: #2196f3;
 }
 
 .nav-link-tel {
   text-decoration: none;
   color: var(--complementary-color-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+}
+
+.nav-link-tel:focus,
+.nav-link-tel:hover {
+  color: #2196f3;
 }
 
 .nav-link {
   text-decoration: none;
-  color: #212121;
+  color: var(--first-text-primary);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
 }
 .nav-link:focus,
 .nav-link:hover {
@@ -92,40 +145,51 @@ ul {
 
 .text-title-h2-index {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.171;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .text-title-h3-index {
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.172;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--first-text-primary);
 }
 
 .text-index {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--complementary-color-text);
 }
 
 .text-team-index {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
 }
 
 .text-command-professions-index {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.171;
   color: var(--complementary-color-text);
+  letter-spacing: 0.03em;
 }
 
 .text-title-portfolio {
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .text-portfolio {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   color: var(--complementary-color-text);
+  letter-spacing: 0.03em;
 }
 
 .footer {
@@ -133,20 +197,22 @@ ul {
 }
 
 .address-index {
-  color: var(--main-background-color);
   font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--main-background-color);
 }
 
 .nav-text-footer {
   text-decoration: none;
   font-size: 14px;
-  line-height: 24px;
-  color: #ffffff99;
+  line-height: 1.714;
+  color: var(--complementary-color-text);
+  letter-spacing: 0.03em;
 }
 
 .nav-text-footer:focus,
 .nav-text-footer:hover {
-  color: #2196f3;
+  color: var(--highlight-color);
 }
