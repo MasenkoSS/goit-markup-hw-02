@@ -16,6 +16,7 @@ ul {
   --highlight-color: #2196f3;
   --complementary-color: #2f303a;
   --complementary-color-text: #757575;
+  --complementary-color-text-nav: #ffffff99;
 }
 
 /* logo */
@@ -62,6 +63,7 @@ ul {
 /* button index */
 
 .font-size-button-index {
+  font-family: Roboto;
   font-size: 16px;
   color: var(--main-background-color);
   line-height: 1.875;
@@ -208,7 +210,7 @@ ul {
   text-decoration: none;
   font-size: 14px;
   line-height: 1.714;
-  color: var(--complementary-color-text);
+  color: var(--complementary-color-text-nav);
   letter-spacing: 0.03em;
 }
 
